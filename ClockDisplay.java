@@ -22,10 +22,14 @@ public class ClockDisplay
     public void SetTime(int hh, int mm, int ss)
     {
         // Damos horas, minutos y segundos
+       if (h<24 && m<60 && s<60){
         h=hh;
         m=mm;
         s=ss;
-        
+       } 
+       else{
+           System.out.println("hora no admitida");
+        }     
     }
     
     /**
