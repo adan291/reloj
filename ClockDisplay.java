@@ -36,12 +36,22 @@ public class ClockDisplay
      * uno mas al timepo
      */
     public void timeTick()
+    
     {
-        if (m>59){
+        if (m<60){
+            m=m+1;
+        }
+         else if (s<60){
+            s=s+1;
+        }  
+        else if (m==60){
             h=h+1;
             m=0;
-        }
-        else if(s<59){
+        }  
+         else if (h==24){
+            h=0;
+        }  
+        else if(s==60){
             m=m+1;
             s=0;
         }
@@ -52,7 +62,7 @@ public class ClockDisplay
      */
     public String getTime()
     {
-       String horAc = "%02d:%02d";
+       String horAc = "%02d:%02d:%02d";
        String resultado = String.format(horAc,h,m,s);
        return resultado;
   
