@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=hh\ mm\ ss
+comment0.target=void\ SetTime(int,\ int,\ int)
+comment0.text=\n\ Elejir\ tiempo\n
+comment1.params=
+comment1.target=void\ timeTick()
+comment1.text=\n\ uno\ mas\ al\ timepo\n
+comment2.params=
+comment2.target=java.lang.String\ getTime()
+comment2.text=\n\ Mostrar\ tiempo\n
+comment3.params=y
+comment3.target=int\ sampleMethod(int)
+comment3.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+numComments=4
